@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4402D0121DAB278700007693 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402D0111DAB278700007693 /* TestVC.m */; };
 		441F70881D99075500610BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F70871D99075500610BFA /* main.m */; };
 		441F708B1D99075500610BFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F708A1D99075500610BFA /* AppDelegate.m */; };
 		441F708E1D99075500610BFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F708D1D99075500610BFA /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		441F70961D99075500610BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441F70941D99075500610BFA /* LaunchScreen.storyboard */; };
 		441F70A11D99075500610BFA /* MJRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F70A01D99075500610BFA /* MJRefreshDemoTests.m */; };
 		441F70AC1D99075500610BFA /* MJRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F70AB1D99075500610BFA /* MJRefreshDemoUITests.m */; };
+		4422B1711DAE1E500002455B /* WeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4422B1701DAE1E500002455B /* WeakView.m */; };
+		4440EF3A1D9A622C00E2408D /* PresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4440EF391D9A622C00E2408D /* PresentVC.m */; };
+		44EDEA2D1DAF60D200037CC8 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EDEA2A1DAF60D200037CC8 /* x.png */; };
+		44EDEA2E1DAF60D200037CC8 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EDEA2B1DAF60D200037CC8 /* o.png */; };
+		44EDEA2F1DAF60D200037CC8 /* k.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EDEA2C1DAF60D200037CC8 /* k.png */; };
+		55513DF07743E0CFB682948F /* libPods-MJRefreshDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CDECBEA169C3DC2EE05FEB /* libPods-MJRefreshDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01CDECBEA169C3DC2EE05FEB /* libPods-MJRefreshDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJRefreshDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4402D0101DAB278700007693 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		4402D0111DAB278700007693 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		441F70831D99075500610BFA /* MJRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441F70871D99075500610BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		441F70891D99075500610BFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,15 @@
 		441F70A71D99075500610BFA /* MJRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		441F70AB1D99075500610BFA /* MJRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJRefreshDemoUITests.m; sourceTree = "<group>"; };
 		441F70AD1D99075500610BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4422B16F1DAE1E500002455B /* WeakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakView.h; sourceTree = "<group>"; };
+		4422B1701DAE1E500002455B /* WeakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakView.m; sourceTree = "<group>"; };
+		4440EF381D9A622C00E2408D /* PresentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentVC.h; sourceTree = "<group>"; };
+		4440EF391D9A622C00E2408D /* PresentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentVC.m; sourceTree = "<group>"; };
+		44EDEA2A1DAF60D200037CC8 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		44EDEA2B1DAF60D200037CC8 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		44EDEA2C1DAF60D200037CC8 /* k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = k.png; sourceTree = "<group>"; };
+		E4020556F18B1D003CBDFEB3 /* Pods-MJRefreshDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJRefreshDemo/Pods-MJRefreshDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EF264F055CE94CAACBA399B2 /* Pods-MJRefreshDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJRefreshDemo/Pods-MJRefreshDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55513DF07743E0CFB682948F /* libPods-MJRefreshDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		416AC4EC54D4A5DA424DCEAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF264F055CE94CAACBA399B2 /* Pods-MJRefreshDemo.debug.xcconfig */,
+				E4020556F18B1D003CBDFEB3 /* Pods-MJRefreshDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		441F707A1D99075500610BFA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				441F709F1D99075500610BFA /* MJRefreshDemoTests */,
 				441F70AA1D99075500610BFA /* MJRefreshDemoUITests */,
 				441F70841D99075500610BFA /* Products */,
+				416AC4EC54D4A5DA424DCEAF /* Pods */,
+				D6365956E3D88E9894A28981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +136,15 @@
 				441F708A1D99075500610BFA /* AppDelegate.m */,
 				441F708C1D99075500610BFA /* ViewController.h */,
 				441F708D1D99075500610BFA /* ViewController.m */,
+				44EDEA2A1DAF60D200037CC8 /* x.png */,
+				44EDEA2B1DAF60D200037CC8 /* o.png */,
+				44EDEA2C1DAF60D200037CC8 /* k.png */,
+				4402D0101DAB278700007693 /* TestVC.h */,
+				4402D0111DAB278700007693 /* TestVC.m */,
+				4422B16F1DAE1E500002455B /* WeakView.h */,
+				4422B1701DAE1E500002455B /* WeakView.m */,
+				4440EF381D9A622C00E2408D /* PresentVC.h */,
+				4440EF391D9A622C00E2408D /* PresentVC.m */,
 				441F708F1D99075500610BFA /* Main.storyboard */,
 				441F70921D99075500610BFA /* Assets.xcassets */,
 				441F70941D99075500610BFA /* LaunchScreen.storyboard */,
@@ -140,6 +180,14 @@
 			path = MJRefreshDemoUITests;
 			sourceTree = "<group>";
 		};
+		D6365956E3D88E9894A28981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01CDECBEA169C3DC2EE05FEB /* libPods-MJRefreshDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441F70B01D99075500610BFA /* Build configuration list for PBXNativeTarget "MJRefreshDemo" */;
 			buildPhases = (
+				836DAC4313537514DF50D02A /* [CP] Check Pods Manifest.lock */,
 				441F707F1D99075500610BFA /* Sources */,
 				441F70801D99075500610BFA /* Frameworks */,
 				441F70811D99075500610BFA /* Resources */,
+				C15C7D08FBAE7187FD35ECD9 /* [CP] Embed Pods Frameworks */,
+				F8E639BAEE6043E4C950AED5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,11 +253,12 @@
 		441F707B1D99075500610BFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Arthur;
 				TargetAttributes = {
 					441F70821D99075500610BFA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7XV7M559DG;
 					};
 					441F709B1D99075500610BFA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,7 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EDEA2E1DAF60D200037CC8 /* o.png in Resources */,
+				44EDEA2D1DAF60D200037CC8 /* x.png in Resources */,
 				441F70961D99075500610BFA /* LaunchScreen.storyboard in Resources */,
+				44EDEA2F1DAF60D200037CC8 /* k.png in Resources */,
 				441F70931D99075500610BFA /* Assets.xcassets in Resources */,
 				441F70911D99075500610BFA /* Main.storyboard in Resources */,
 			);
@@ -265,13 +320,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		836DAC4313537514DF50D02A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C15C7D08FBAE7187FD35ECD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJRefreshDemo/Pods-MJRefreshDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E639BAEE6043E4C950AED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJRefreshDemo/Pods-MJRefreshDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		441F707F1D99075500610BFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4440EF3A1D9A622C00E2408D /* PresentVC.m in Sources */,
 				441F708E1D99075500610BFA /* ViewController.m in Sources */,
 				441F708B1D99075500610BFA /* AppDelegate.m in Sources */,
+				4402D0121DAB278700007693 /* TestVC.m in Sources */,
+				4422B1711DAE1E500002455B /* WeakView.m in Sources */,
 				441F70881D99075500610BFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +447,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,8 +494,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -413,8 +523,10 @@
 		};
 		441F70B11D99075500610BFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF264F055CE94CAACBA399B2 /* Pods-MJRefreshDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XV7M559DG;
 				INFOPLIST_FILE = MJRefreshDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoquan.MJRefreshDemo;
@@ -424,8 +536,10 @@
 		};
 		441F70B21D99075500610BFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4020556F18B1D003CBDFEB3 /* Pods-MJRefreshDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XV7M559DG;
 				INFOPLIST_FILE = MJRefreshDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoquan.MJRefreshDemo;
@@ -498,6 +612,7 @@
 				441F70B21D99075500610BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		441F70B31D99075500610BFA /* Build configuration list for PBXNativeTarget "MJRefreshDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +621,7 @@
 				441F70B51D99075500610BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		441F70B61D99075500610BFA /* Build configuration list for PBXNativeTarget "MJRefreshDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +630,7 @@
 				441F70B81D99075500610BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
